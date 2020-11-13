@@ -1,0 +1,6 @@
+* Ticket number: 1
+* Author of ticket: Chase Greenhagen
+* Date Opened: 2/13/2017
+* Date Closed: 2/16/2017
+
+As an administrator who wants to process images for the website, I want my new images to be outputted in a separate folder so that the new and old images are not confused.

@@ -1,0 +1,6 @@
+* Ticket number: 4
+* Author of ticket: Chase Greenhagen
+* Date Opened: 2/14/2017
+* Date Closed:
+
+As a software engineer who will ensure the program is maintained, I want each script to contain no more than 75 lines of code so that the code is reliable, easy to read, and easy to debug.

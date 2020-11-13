@@ -1,0 +1,44 @@
+body {
+	background-color: #c1ad84;
+}
+
+#slideshow {
+	position: absolute;	
+	left: 75px;
+	top: 150px;
+	width: 575px;
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#chart_div {
+	position: absolute;
+	left: 700px;
+	top: 150px;
+}
+
+img.valpo {
+	left: 33%;
+	position: relative;
+}
+
+div.header {
+	width: 100%;
+	margin: auto;
+	padding: 15px;
+	background-color: #3f2a14;
+    border-bottom: medium solid #e3dac8;
+}
+
+.mySlides {display:none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}

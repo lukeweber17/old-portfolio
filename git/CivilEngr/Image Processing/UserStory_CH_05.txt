@@ -1,0 +1,6 @@
+* Ticket number: 5
+* Author of ticket: Chase Greenhagen
+* Date Opened: 3/23/2017
+* Date Closed:
+
+As an administrator who wants to process images for the website, I want to select a sample pixel in the image to make the image processing software more precise and adaptable to other images.

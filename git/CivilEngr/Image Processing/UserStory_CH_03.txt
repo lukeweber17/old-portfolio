@@ -1,0 +1,8 @@
+* Ticket number: 3
+* Author of ticket: Chase Greenhagen
+* Date Opened: 2/14/2017
+* Date Closed: 3/23/2017
+
+* Updated (3/23/2017): Requirement for specifying new image name was removed and the new name will assume the original name, but it will be saved in the "NewImage" folder.
+
+As an administrator who wants to process images for the website, I want to be prompted to enter the general name of the input images and the unique image identifying number so that the code is reusable with no coding maintenance.

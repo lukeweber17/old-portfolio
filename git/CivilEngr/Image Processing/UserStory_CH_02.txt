@@ -1,0 +1,6 @@
+* Ticket number: 2
+* Author of ticket: Chase Greenhagen
+* Date Opened: 2/14/2017
+* Date Closed: 2/14/2017
+
+As an administrator who wants to process images for the website, I want a user-error screen to appear when I try to input a file that does not exist so that I am aware of which images are not found and the code will continue to process images after the error.

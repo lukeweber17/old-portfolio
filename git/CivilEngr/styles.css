@@ -1,0 +1,78 @@
+body {
+	background-color: #c1ad84;
+}
+
+#slideshow {
+	position: absolute;	
+	left: 2%;
+	top: 80px;
+	width: 46%;
+}
+
+button {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #381e0e;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: -55px 10px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #381e0e;
+  color: white;
+}
+
+#table_div {
+  position: absolute;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 90%;
+  margin-left: 5%;
+  bottom: 3%;
+  top: 83%; 
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+
+#chart_div {
+	position: absolute;
+	left: 52%;
+	top: 80px;
+}
+
+#form {
+	position: absolute;
+	top: 470px;
+	left: 55%;
+} 
+
+img.valpo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -5px;
+  width: 400px;
+}
+
+div.header {
+	width: 100%;
+	margin: auto;
+	padding: 10px;
+	background-color: #3f2a14;
+    border-bottom: medium solid #e3dac8;
+}
+
+.mySlides {display:none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
