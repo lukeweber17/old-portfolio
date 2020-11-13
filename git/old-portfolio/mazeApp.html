@@ -1,0 +1,68 @@
+<html>
+    <head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="mazestyles.css">
+		<link rel="icon" href="lw.png" type="image/png" sizes="16x16">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<title>Luke Weber</title>
+	</head>
+	<body>
+		<div class="bg">
+			<div class="box1">
+				<div class="w3-content" style="max-width:800px">
+					<img class="mySlides" src="imgs/maze.png">
+					<img class="mySlides" src="imgs/maze1.png">
+					<img class="mySlides" src="imgs/maze2.png">
+				</div>
+				<div class="w3-center">
+					<div class="w3-section">
+						<button class="w3-button w3-light-grey" onclick="plusDivs(-1)">❮ Prev</button>
+						<button class="w3-button w3-light-grey" onclick="plusDivs(1)">Next ❯</button>
+					</div>
+					<button class="w3-button demo" onclick="currentDiv(1)"><font color="white">1</font></button> 
+					<button class="w3-button demo" onclick="currentDiv(2)"><font color="white">2</font></button> 
+					<button class="w3-button demo" onclick="currentDiv(3)"><font color="white">3</font></button> 
+				</div>
+			</div>
+			<div class="box2">
+				<h1>Tile Game</h1>
+				<p>
+					I Developed a top-down two-dimensional puzzle game in Java, which allows the user 
+					to use functional movement capabilities to solve the maze; the code 
+					relied heavily on the sprite sheets capability in Java. The user can use 
+					the W, A, S, and D keys to move in any direction. The goal of the game is 
+					to make it from one end of the maze to the other.
+				</p>
+			</div>	
+		</div>
+		<script>
+				var slideIndex = 1;
+				showDivs(slideIndex);
+
+				function plusDivs(n) {
+					showDivs(slideIndex += n);
+				}
+
+				function currentDiv(n) {
+					showDivs(slideIndex = n);
+				}
+
+				function showDivs(n) {
+					var i;
+					var x = document.getElementsByClassName("mySlides");
+					var dots = document.getElementsByClassName("demo");
+					if (n > x.length) {slideIndex = 1}    
+					if (n < 1) {slideIndex = x.length}
+						for (i = 0; i < x.length; i++) {
+							x[i].style.display = "none";  
+						}
+						for (i = 0; i < dots.length; i++) {
+							dots[i].className = dots[i].className.replace(" w3-red", "");
+						}
+						x[slideIndex-1].style.display = "block";  
+						dots[slideIndex-1].className += " w3-red";
+				}
+			</script>
+	</body>
+</html>

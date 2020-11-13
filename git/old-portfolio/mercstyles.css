@@ -1,0 +1,79 @@
+body {
+	margin:0;
+	padding-top:0;
+	font-family: Verdana;
+	line-height: 1.5em;
+	text-align: center;
+    background-color: lightgray;
+}
+
+/* Main content */
+.main {
+  margin-top: 30px; /* Add a top margin to avoid content overlay */
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("imgs/car.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  overflow: auto;
+}
+
+.box1 { 
+  font-size: 25px;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 500px;
+  height: auto;
+  border: 3px solid white;
+  padding: 5px;
+  margin-left: 15px;
+  margin-top: 30px;
+  float: left;
+}
+
+.box2 { 
+  font-size: 25px;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 500px;
+  height: auto;
+  border: 3px solid white;
+  padding: 5px;
+  margin-right: 15px;
+  margin-top: 30px;
+  float: right;
+}
+
+.mySlides {
+	display: none;
+	width: 300px;
+	height: 400px;
+	margin: auto;
+	margin-top: 20px;
+	outline: 3px solid gray;
+}
+
+h1 {
+  color: white;
+  font-family: Andale Mono, monospace;
+}
+
+p {
+	color: white;
+	font-family: Trebuchet MS;
+	text-align: left;
+	margin-left: 10px;
+	margin-right: 10px;
+}

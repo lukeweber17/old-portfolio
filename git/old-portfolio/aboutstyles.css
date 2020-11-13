@@ -1,0 +1,55 @@
+body {
+	margin:0;
+	padding-top:0;
+	font-family: Verdana;
+	line-height: 1.5em;
+	text-align: center;
+    background-color: lightgray;
+}
+
+/* Main content */
+.main {
+  margin-top: 30px; /* Add a top margin to avoid content overlay */
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("imgs/city.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  overflow: auto;
+}
+
+.box { 
+  font-size: 25px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 3px solid white;
+  padding: 25px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+h1 {
+  color: white;
+  font-family: Andale Mono, monospace;
+}
+
+p {
+  color: white;
+  font-family: Trebuchet MS;
+  text-align: left;
+}
